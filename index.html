@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,8 +7,7 @@
     <title>VK Bridge test Direct Games</title>
   </head>
   <body class="body">
-    <header class="header">
-      <h1 class="header__title">VK Bridge test Direct Games</h1>
+    <header class="header"><button class="button" onclick="vkDirectGameApp.send(&quot;VKWebAppShowInviteBox&quot;)">Отправить</button>
     </header>
     <div class="content">
       <div class="header-info">
@@ -35,7 +35,6 @@
         <div class="search-widget">
           <input class="search-widget__control" name="search-query" placeholder="Введите название метода" onchange="vkDirectGameApp.filterMethods(this)">
         </div>
-        <div id="methods-list"></div>
       </div>
       <div class="content-wrap api-request-content">
         <div id="api-requests-list"></div>
